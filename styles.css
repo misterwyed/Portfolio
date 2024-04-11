@@ -1,0 +1,38 @@
+
+header>nav>a{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: white;
+}
+body{
+    background-image: url(background3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+section>h1{
+    color: whitesmoke;
+}
+#profile-pic{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: aqua;
+  }
+  section{
+    color:white;
+  }
+  #icon{
+    height: 13px;
+    width: 16px;
+  }
+  h2{
+   text-decoration: underline ;
+  }
