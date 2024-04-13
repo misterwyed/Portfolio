@@ -5,8 +5,11 @@ header>nav>a{
     padding: 4px;
     background-color: white;
 }
-body{
-    background-image: url(background3.jpg) no-repeat center fixed;;
+    body{
+    background-image: url(background3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 section>h1{
     color: whitesmoke;
