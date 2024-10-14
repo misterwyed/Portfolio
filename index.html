@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Site</title>
+  <title>Portfolio</title>
   <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
   <header>
     <nav>
+        <img id="Logo" src="MS_logo.jpg" alt="Mayank Singh Logo">
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -20,26 +23,36 @@
         <img id="profile-pic" src="Mayank_Singh.jpg" alt="Mayank Singh Image">
     </section>
     <section id="about">
-        <article>
+        <br>
             <h2>About Me</h2>
-            <p>I am Mayank Singh. I have done my graduation in the Computer Science and Engineering from AKTU.<br> I am a Developer in STL Digital Limited.</p>
+            <p>
+                I am Mayank Singh, a Software Developer with expertise in Java, Spring Boot, Python, and automation. Currently, I work at STL Digital, where I integrate network elements and develop automation solutions for Nokia. I have hands-on experience in backend development, building and optimizing applications using Java and Spring Boot, along with writing Python scripts to automate network tasks and processes.</br>
+
+                I’ve worked on projects like USD Segmentation and NSIGHT, where I integrated network elements, installed Fast Passes, and automated bulk operations through scripting. I hold a B.Tech in Computer Science and Engineering from Galgotias College of Engineering and Technology, graduating with a CGPA of 7.8.</br>
+                
+                Additionally, I am certified in both RHCSA (Linux) and CKA (Kubernetes), which reinforces my technical proficiency in backend and system administration.
+                </p>
         </article>
         <article>
             <h2>Skills</h2>
-            <ul>
+            <ul id="skills-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Docker</li>
                 <li>Linux</li>
                 <li>Java</li>
+                <li>Springboot</li>
+                <li>Python</li>
+                <li>Kubernetes</li>
             </ul>
             <h2>Hobbies</h2>
             <ul>
                 <li>Reading</li>
-                <li>Physical Exercise</li>
+                <li>Physical Activity</li>
             </ul>
-
         </article>
+        </section>
+        <section id="projects">
         <article>
             <h2>PROJECTS</h2>
             <h4>Project Name — Live Object Detection in Real Time</h4>
@@ -60,12 +73,12 @@
             tough for dairy owners to manage all dairy work manually. To reduce
             manual work, A dairy management.
         </article>
-    </section>
-    <section>
+    </section>    
+    <section id="certifications">
         <h2>Certifications</h2>
         <ul>
-            <li>Redhat Certified Administrator (Linux)</li>
-            <li>CKA (Kubernetes)</li>
+            <a href="https://rhtapps.redhat.com/verify?certId=220-104-582"><li>Redhat Certified Administrator (Linux)</li></a>
+            <a href="https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/0f7a95c7-5dab-4abf-ae92-f1a0b7ed55bc-mayank-singh-1954ff4d-e639-46a0-be70-9ce5385e4c12-certificate.pdf"><li>CKA (Kubernetes)</li></a>
         </ul>
     </section>
   </main>
